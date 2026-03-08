@@ -198,16 +198,6 @@ return res.redirect(`${frontendUrl}/login?success=true`);
 
 - Khi cần account linking
 
-- Redirect không truyền token
-
-```
-
-return res.redirect(`${frontendUrl}/login?success=true`);
-
-```
-
-- Khi cần account linking
-
 ```
 
 if (result.requiresLinking) {
